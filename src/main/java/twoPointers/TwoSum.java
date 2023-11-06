@@ -1,5 +1,6 @@
-package org.example;
+package twoPointers;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 class TwoSum {
@@ -14,5 +15,10 @@ class TwoSum {
             } else map.put(numbers[i], i);
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        TwoSum sum = new TwoSum();
+        System.out.println(Arrays.toString(sum.twoSum(new int[]{2, 5, 7}, 9)));
     }
 }

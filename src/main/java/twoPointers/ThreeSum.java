@@ -1,4 +1,4 @@
-package org.example;
+package twoPointers;
 
 import java.util.Arrays;
 
