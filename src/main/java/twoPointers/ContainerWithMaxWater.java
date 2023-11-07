@@ -1,7 +1,7 @@
 package twoPointers;
 
-public class Container {
-    public static int withMostWater(int[] height) {
+public class ContainerWithMaxWater {
+    public static int ContainerWithMostWater(int[] height) {
 
         if (height.length < 2) {
             return 0;
@@ -34,7 +34,7 @@ public class Container {
     public static void main(String[] args) {
         int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
 //        int[] height = {2, 8, 6, 3, 5, 4, 7};
-        int result = withMostWater(height);
+        int result = ContainerWithMostWater(height);
         System.out.println(result);
     }
 }
